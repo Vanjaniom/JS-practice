@@ -1,0 +1,50 @@
+*{
+   
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#box{
+    height: 200px;
+    width: 200px;
+    border: 2px solid #000;
+}
+
+div{
+    height: 200px;
+    width: 200px;
+
+}
+#tsk3{
+    background-color: bisque;
+}
+#parent{
+   
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#tsk4{
+    background-color: rgb(151, 111, 59);
+    padding: 10px;
+    transition: all 0.5s linear;
+    
+    
+}
+#tsk8{
+    background-color: transparent;
+    border: 2px solid salmon;
+
+}
+button{
+    height: 30px;
+    padding: 5px 10px;
+    margin: 5px;
+    background-color: skyblue;
+
+}
