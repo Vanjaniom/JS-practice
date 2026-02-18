@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+   padding: 10px;
+}
+.container{
+    height: 60%;
+    width: 100%;
+    border-radius: 50px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    padding: 20px;
+
+    background-color: burlywood;
+}
+img{
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+}
+button{
+    height: 40px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+#parent{
+    height: 50%;
+    width: 100%;
+    background-color: bisque;
+    overflow: auto;
+}
