@@ -131,3 +131,23 @@ dynamic_btn.addEventListener('click',
         console.log(image.getAttribute("src"))
     }
 )
+
+//Task5
+var progressBtn = document.getElementById("progressbtn");
+var progressContainer = document.getElementById("progressContainer");
+var progressBar = document.getElementById("progressBar");
+
+progressBtn.addEventListener("click",
+        function(){
+            
+            let width = 0;
+            let random_width = Math.floor(Math.random()*101)+1;
+            width=width+random_width;
+            progressBar.style.width=`${width}%`;
+            progressBar.style.height="10px";
+            progressBar.style.backgroundColor="green";
+            console.log(width,random_width);
+            
+
+        }
+)
